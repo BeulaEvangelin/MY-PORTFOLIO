@@ -19,7 +19,7 @@ function ContactPopup({ onClose }) {
               href="mailto:beulaevangelin3182@gmail.com"
               className="text-gray-600 hover:text-gray-900 mr-2"
             >
-              <i className="ri-mail-fill"></i>
+              <i className="ri-mail-fill text-lg"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/beulaevangelin/"
@@ -27,7 +27,7 @@ function ContactPopup({ onClose }) {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 mr-2"
             >
-              <i className="ri-linkedin-fill"></i>
+              <i className="ri-linkedin-fill text-lg"></i>
             </a>
             <a
               href="https://www.behance.net/beulaevangelin"
@@ -35,7 +35,7 @@ function ContactPopup({ onClose }) {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 mr-2"
             >
-              <i className="ri-behance-fill"></i>
+              <i className="ri-behance-fill text-lg"></i>
             </a>
             <a
               href="https://github.com/BeulaEvangelin"
@@ -43,7 +43,7 @@ function ContactPopup({ onClose }) {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 mr-2"
             >
-              <i className="ri-github-fill"></i>
+              <i className="ri-github-fill text-lg"></i>
             </a>
             <a
               href="https://www.instagram.com/_.beula._/"
@@ -51,9 +51,10 @@ function ContactPopup({ onClose }) {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900"
             >
-              <i className="ri-instagram-fill"></i>
+              <i className="ri-instagram-fill text-lg"></i>
             </a>
           </div>
+
           <button
             onClick={onClose}
             className="text-gray-600 hover:text-gray-900"
