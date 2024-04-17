@@ -1,0 +1,142 @@
+/* client> src> index.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #d1d1d1;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
+
+  .d1{
+    animation:d1 1s infinite ;
+  }
+   @keyframes d1{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 0.5;
+    }
+   }
+
+   .c{
+    animation:c 1s infinite ;
+  }
+   @keyframes c{
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0.5;
+    }
+   }
+
+   .d2{
+    animation:d2 1s infinite ;
+  }
+   @keyframes d2{
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+    }
+   }
+/* Add this CSS to your stylesheet */
+.project {
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem; /* Adjust the margin as needed */
+  margin-right: 0.5rem; /* Adjust the margin as needed */
+}
+
+.icon-container svg {
+  width: 1.5rem; /* Adjust the icon size as needed */
+  height: 1.5rem; /* Adjust the icon size as needed */
+  fill: #718096; /* Adjust the default icon color as needed */
+}
+
+.icon-container svg:hover {
+  fill: #4a5568; /* Adjust the hover icon color as needed */
+}
+
+
+   input, textarea {
+    height: 40px;
+    border: 1px solid gray;
+    width: 100%;
+    padding-left: 20px;
+   }
+
+   input:focus{
+    outline: none;
+    border:2px solid rgb(77, 77, 77)
+   }
+
+   textarea{
+    height: 100px;
+    padding-top: 10px;
+   }
+
+   .aura-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.aura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f5f5dc, #ffffe0, #ffcbd3, #ebcdff, #d1ffff, #f0e68c, #d0f08c ); /* Beige, light yellow, light pink, light purple, light turquoise blue, light olive green */
+    background-size: 650% 650%; /* Increase the size for smoother transitions */
+    animation: gradientAnimation 15s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+  
