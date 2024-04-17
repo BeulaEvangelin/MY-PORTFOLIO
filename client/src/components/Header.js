@@ -14,7 +14,7 @@ function Header() {
     <header className="py-4">
       <div className="container mx-auto flex justify-center items-center">
         <nav style={{ fontFamily: "DM Sans" }}>
-          <ul className="flex space-x-20 sm:space-x-8">
+          <ul className="flex space-x-20 sm:space-x-8 items-center">
             <li>
               <Link
                 to="/"
